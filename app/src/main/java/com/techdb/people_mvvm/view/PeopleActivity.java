@@ -30,6 +30,11 @@ public class PeopleActivity extends AppCompatActivity implements PeopleViewModel
     private PeopleViewModel mPeopleViewModel;
     private PeopleViewModelContract.MainView mMainView = this;
 
+
+
+
+    
+
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
