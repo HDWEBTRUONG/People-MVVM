@@ -37,8 +37,7 @@ public class PeopleActivity extends AppCompatActivity implements PeopleViewModel
         initDataBinding();
         setSupportActionBar(mActivityPeopleBinding.toolbar);
         setupListPeopleView(mActivityPeopleBinding.listPeople);
-
-
+        
     }
 
     private void initDataBinding() {
